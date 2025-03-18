@@ -1,7 +1,7 @@
 body {
     background-color: black;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     transition: all 1.0s ease;
 }
@@ -21,6 +21,9 @@ h1 {
     margin: 100px auto;
     cursor: pointer;
     transition: all 1.0s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ball1 {
@@ -41,4 +44,8 @@ h1 {
 
 .ball5 {
     background-color: aqua;
+}
+
+.ball6 {
+    background-color: brown;
 }

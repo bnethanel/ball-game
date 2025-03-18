@@ -38,6 +38,10 @@ function onBall5Click () {
     document.querySelector('body').style.backgroundColor = getRandomColor()
 }
 
+function onBall6Click() {
+    location.reload()
+}
+
 
 function updateBallSize(elBall, decreaseAmount) {
     var currSize = parseInt(window.getComputedStyle(elBall).width)
