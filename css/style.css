@@ -1,15 +1,21 @@
 body {
     background-color: black;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 h1 {
     color: white;
 }
 
-div {
+.ball {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: red;
     margin: 100px auto;
+    cursor: pointer;
+    transition: all 1.0s ease;
+    
 }
