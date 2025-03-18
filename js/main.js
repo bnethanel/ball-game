@@ -1,6 +1,6 @@
 var gBallSize = 100
 function onBallClick() {
-    var elBall = document.querySelector('.ball')
+    var elBall = document.querySelector('.ball1')
     gBallSize += getRandomIntInclusive(20, 60)
     elBall.style.backgroundColor = getRandomColor()
 
