@@ -3,10 +3,15 @@ body {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
+    transition: all 1.0s ease;
 }
 
 h1 {
     color: white;
+}
+
+.balls-container {
+    display: flex;
 }
 
 .ball {
@@ -32,4 +37,8 @@ h1 {
 
 .ball4 {
     background-color: greenyellow;
+}
+
+.ball5 {
+    background-color: aqua;
 }
